@@ -1,0 +1,41 @@
+<html>
+<head>
+   <link rel="stylesheet" href="style.css"/>
+</head>
+<body oncontextmenu="return false" onselectstart="return false;" oncopy="return false">
+   <img id="cursor" src="cursor.png" />
+   <div id="container">
+      <video autoplay loop muted id="bg-video">
+         <source src="loading.mp4" type="video/mp4">
+      </video>
+      <video autoplay loop muted id="particles">
+         <source src="bgpart.mp4">
+      </video>
+      <audio loop id="music1">
+         <source src="loading-sound-1.ogg" type="audio/ogg">
+      </audio>
+      <audio loop id="music2">
+         <source src="loading-sound-2.ogg" type="audio/ogg">
+      </audio>
+      <audio loop id="music3">
+         <source src="loading-sound-3.ogg" type="audio/ogg">
+      </audio>
+      <div class="logo">
+         <i id="iskra">Iskra</i><i id="rp">RP</i>
+      </div>
+      <div class="vol-slider">
+         <input type="range" min="1" max="100" value="30" id="volume-control">
+      </div>
+      <div class="controls">
+         <button class="prev-btn" onclick="prev()">
+            <i class="demo-icon icon-left-open" id="prev_btn"></i>
+         </button>
+         <button class="next-btn" onclick="next()">
+            <i class="demo-icon icon-right-open" id="next_btn"></i>
+         </button>
+      </div>
+      <div class="clear: both;"></div>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
