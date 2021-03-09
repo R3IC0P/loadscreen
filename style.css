@@ -1,3 +1,5 @@
+/* FiveM LoadingScreen By R3IC0P */
+
 body {
    background-color: rgb(0, 0, 0);
    /*cursor: url(cursor.png), auto;*/
@@ -63,7 +65,6 @@ body {
    height: 100vh;
    top: 0;
    left: 0;
-   opacity: 0.7;
 }
 
 .logo {

@@ -2,13 +2,18 @@ files {
     'index.html',
     'style.css',
     'main.js',
+    'pricedow-webfont.woff',
+    'fontello.eot',
+    'fontello.svg',
+    'fontello.ttf',
     'fontello.woff',
+    'fontello.woff2',
     'cursor.png',
-    'loading-sound-1.ogg',
+    'first.ogg',
     'loading.mp4',
     'bgpart.mp4',
-    'loading-sound-2',
-    'loading-sound-3'
+    'first1.ogg',
+    '17sec_01476flutedrop.ogg'
 }
 
 loadscreen 'index.html'

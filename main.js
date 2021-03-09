@@ -1,3 +1,5 @@
+/* FiveM LoadingScreen By R3IC0P */
+
 window.onload = function () {
    document.body.addEventListener("mousemove", function (event) {
       let cursor = document.getElementById("cursor");
